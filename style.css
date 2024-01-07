@@ -1,12 +1,64 @@
 /*-------------------------
         the fonts
 ---------------------------*/
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+.inter{
+    font-family: 'Inter', sans-serif;
+}
+.merriweather{
+    font-family: 'Merriweather', serif;
+}
+
 /*-------------------------
      the header section
 ---------------------------*/
+.header{
+    margin: 50px 100px 50px;
+    padding: 150px 200px;
+    border-radius: 10px;
+    background-image: url("images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.header-subtitle{
+    text-align: center;
+    font-size: 32px;
+    color: #FFF;
+}
+.header-title{
+    color: #FFF;
+    text-align: center;
+    font-size: 72px;
+    font-weight: 900;
+}
 /*-------------------------
      the off section
 ---------------------------*/
+.off-section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.off{
+    color: #F00;
+    font-size: 88px;
+    font-weight: bold;
+}
+.off-text{
+    color: #F00;
+    font-size: 24px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-weight: 500;
+
+}
+.off-category{
+    color: #070211;
+    font-size: 48px;
+    font-weight: bold;
+}
 /*-------------------------
      the party section
 ---------------------------*/
