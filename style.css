@@ -187,10 +187,70 @@
     font-weight: 500;
     text-align: center;
 }
+.holiday-container{
+    background-image: url("images/Rectangle\ 1.png"), url("images/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: top right, bottom;
+    position: relative;
+}
+.holiday-container > img{
+    text-align: center;
+}
+.float2{
+    position: absolute;
+    right: 20%;
+    bottom: 40%;
+}
 /*-------------------------
    awesome portfolio section
 ---------------------------*/
-
+.portfolio{
+    margin: 120px 100px;
+}
+.portfolio-subtitle{
+    color: #F00;
+    font-size: 24px;
+    font-weight: 500;
+}
+.portfolio-title{
+    color: #070211;
+    font-size: 48px;
+    font-weight: 900;
+}
+.portfolio-description{
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 20px;
+}
+.portfolio-container > img{
+    display: block;
+}
+.overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid red;
+    border-radius: 10px;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: white;
+    transition: opacity 0.3s ease;
+}
+.portfolio-container > img:hover .overlay{
+    opacity: 1;
+}
+.portfolio-container{
+    padding-top: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: auto auto auto;
+}
 /*-------------------------
     newsletter section
 ---------------------------*/
@@ -266,12 +326,13 @@
     letter-spacing: 20px;
 }
 .line{
-    color:rgba(255, 255, 255, 0.15);
+    background-color:rgba(255, 255, 255, 0.15);
 }
 .copyright{
     display: flex;
     justify-content: space-between;
 }
-/*-------------------------
-    the extra comment
----------------------------*/
+
+/*-----------------------------------
+    6 hours of my 10000 hrs journey
+--------------------------------------*/
